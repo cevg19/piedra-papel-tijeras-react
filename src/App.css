@@ -1,0 +1,51 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/*################ */
+
+.btn-game {
+  padding: 12px 30px;
+  margin: 5px;
+}
+
+.display-game {
+  width: 800px;
+  height: 200px;
+  border: 5px solid white;
+  border-radius: 30px;
+  width: 400px;
+  margin: auto;
+  background-color: transparent;
+  color: orangered;
+}
+
+.choice {
+  font-size: 24px;
+}
+.icon {
+  font-size: 70px;
+}
+.icon .win {
+  color: green;
+}
+.icon .lose {
+  color: red;
+}
+.icon .equals {
+  color: rgb(59, 55, 55);
+}
+
+.scoreboard {
+  font-family: "Calculator";
+  color: orangered;
+  margin: 0px;
+}
+.scoreboard > .title {
+  font-size: 70px;
+}
+.scoreboard > .score {
+  font-size: 50px;
+}
